@@ -1,0 +1,28 @@
+Assignment 4 Written Requirement Response
+
+Student Name(s): Diego Gonzalez Reyes
+
+1. Describe two challenges that the format of the building file presented.
+
+    The first challenge that the building presented was the way to represent the building in a 2D list.
+    opening the file and read it was easy, but to have those lines represented as a 2D list was harder. 
+    the hard part was getting everything in one line and then separate it by the \n character. 
+    For some reason though, it wouldn't work at first. the solution was to not treat it as one line, but,
+    multiple lines that I iterate through. Going line by line it was easier to split the line into a list 
+    and then append that list into a bigger list.
+
+    The second challenge was to put back the building as originally. I thought by just joining the lists I
+    would get the building format back, but instead I got a mess. I had to iterate by row, to join the 
+    whole row(list) into one string, and then finally just join the list with \n into a bigger string. 
+
+    These challenges were quite hard specially because I've never work with files before.
+
+2.Briefly describe an alternative file format that would not pose the challenges you provided in 1.
+    By just writing the file in one line, separated by commas each die then I'd just need to split 
+    by commasand I wouldn't need to have a whole function to just represent that as a list, but 
+    rather a few lines of code to represent it as a list.
+
+3.Briefly describe a different challenge that your alternative file format would pose.
+    If I want to represent it as a 2D list, then how to divide the line by 3 stacks would be hard, since is 
+    already one single list. 
+ 
