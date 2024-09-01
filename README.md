@@ -46,8 +46,11 @@ This project implements a scoring system for evaluating materials used in a buil
 Given a `building.txt` file with the following content:
 
 --|S1|--
+
 --|R1|--
+
 --|S5|--
+
 W6|R1|S6
 
 The output in `scoring-results.txt` will include the formatted building layout and the calculated scores for Glass, Recycled, Stone, and Wood, along with the total score.
